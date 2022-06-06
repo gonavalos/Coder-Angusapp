@@ -2,6 +2,7 @@
 import { getProducts, getProductsByCategory } from '../../asyncmock'
 import { useState, useEffect } from 'react'
 import ItemList from '../ItemList/ItemList'
+import Item from '../Item/Item'
 import { useParams } from 'react-router-dom'
 import '../ItemListContainer/ItemListConteiner.css'
 
